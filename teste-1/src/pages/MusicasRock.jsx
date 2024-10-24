@@ -1,9 +1,9 @@
 import React from 'react'
 
-const MusicasFunk = () => {
+const MusicasRock = () => {
   return (
     <div>
-      <h1>Alguns dos Artistas Mais Famosos do Mundo das Músicas Funk</h1>
+      <h1>Alguns dos Artistas Mais Famosos do Mundo das Músicas Reggae</h1>
 
       <div> 
         <h2 className="cantores">Marília Mendonça</h2>
@@ -33,9 +33,9 @@ const MusicasFunk = () => {
             allowFullScreen
           ></iframe>
       </div>
-
+      
     </div>
   )
 }
 
-export default MusicasFunk
+export default MusicasRock

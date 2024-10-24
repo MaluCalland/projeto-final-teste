@@ -1,6 +1,15 @@
 import React from 'react';
 import FundoMPB from '../Components/FundoMPB';
 import { Outlet , useNavigate} from 'react-router-dom';
+import Sertanejo from '../Components/Sertanejo';
+import Axe from '../Components/Axe';
+import Forro from '../Components/Forro';
+import Funk from '../Components/Funk';
+import Pagode from '../Components/Pagode';
+import Reggae from '../Components/Reggae';
+import Samba from '../Components/Samba';
+import Trap from '../Components/Trap';
+import Rock from '../Components/Rock';
 
 const Home = () => {
 
@@ -19,7 +28,18 @@ const Home = () => {
             </form>
         </div>
 
-        <p><FundoMPB/></p>
+        <div>
+            <p><FundoMPB/></p>
+            <p><Axe/></p>
+            <p><Sertanejo/></p>
+            <p><Forro/></p>
+            <p><Funk/></p>
+            <p><Pagode/></p>
+            <p><Trap/></p>
+            <p><Samba/></p>
+            <p><Reggae/></p>
+            <p><Rock/></p>
+        </div>
         {/* <p><Sertanejo/></p> */}
     
         <Outlet/>

@@ -16,6 +16,7 @@ import MusicasSamba from "./pages/MusicasSamba";
 import MusicasSertanejo from "./pages/MusicasSertanejo";
 import MusicasTrap from "./pages/MusicasTrap";
 import MusicasPagode from "./pages/MusicasPagode";
+import MusicasRock from './pages/MusicasRock'
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
           <Route path="musicas-sertanejo" element={<MusicasSertanejo />} />
           <Route path="musicas-trap" element={<MusicasTrap />} />
           <Route path="musicas-pagode" element={<MusicasPagode />} />
+          <Route path="musicas-rock" element={<MusicasRock />} />
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>
